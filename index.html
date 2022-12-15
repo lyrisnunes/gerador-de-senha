@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div id="registro-container">
+        <div id="registro-banner">
+            <div id="banner-titulo">
+                <h1>Seja Bem-Vindo</h1>    
+            </div>
+        </div>
+        <div id="registro-formulario">
+            <h2>Crie sua conta :</h2>
+            <p>Registre-se para utilizar todas as funcionalidades do sistema.</p>
+            <div class="form-controle">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
+            </div>
+            <div class="form-controle">
+                <label for="email">E-mail</label>
+                <input type="text" type="email" name="email" id="email" placeholder="Digite o seu E-mail">
+            </div>
+            <div class="form-controle">
+                <label for="password">Senha:</label>
+                <input type="text" type="password" name="password" id="password" placeholder="Digite sua senha">
+            </div>
+            <p>Quer ajuda para criar uma senha segura ?
+                <span id="gerar-senha"><a href="#">Clique aqui</a></span>
+            </p>
+            <div id="gerador-senha">
+                <p>Aqui está sua senha:</p>
+                <h4></h4>
+            </div>
+            <div class="form-controle">
+                <label for="confirmesenha">Confirme sua senha</label>
+                <input type="text" type="confirmesenha"
+                 name="confirmesenha"  id="confirmesenha" placeholder="Confirme sua senha">
+            </div>
+            <input type="submit" value="cadastrar">
+
+        </div>
+
+    </div>
+
+    <script src="script-js"></script>
+</body>
+</html>
